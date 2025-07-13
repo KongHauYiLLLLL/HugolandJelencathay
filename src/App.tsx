@@ -434,7 +434,6 @@ function App() {
             </div>
           );
         }
-        return <Shop coins={gameState.coins} onOpenChest={openChest} onDiscardItem={discardItem} isPremium={gameState.isPremium} />;
         return (
           <Shop 
             coins={gameState.coins} 
