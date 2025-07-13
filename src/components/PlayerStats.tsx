@@ -127,7 +127,7 @@ export const PlayerStats: React.FC<PlayerStatsProps> = ({
               <Sparkles className="w-4 h-4 text-yellow-400" />
               <span className="text-white font-semibold text-xs">Shiny</span>
             </div>
-            <p className="text-base font-bold text-yellow-400 text-center">{shinyGems.toLocaleString()}</p>
+            <p className="text-base font-bold text-yellow-400 text-center">{(shinyGems || 0).toLocaleString()}</p>
           </div>
 
           <div className="bg-black/30 p-3 rounded-xl border border-cyan-500/30">
