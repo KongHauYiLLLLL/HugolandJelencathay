@@ -119,7 +119,7 @@ export const PlayerStats: React.FC<PlayerStatsProps> = ({
               <Gem className="w-4 h-4 text-purple-400" />
               <span className="text-white font-semibold text-xs">Gems</span>
             </div>
-            <p className="text-base font-bold text-purple-400 text-center">{gems.toLocaleString()}</p>
+            <p className="text-base font-bold text-purple-400 text-center">{(gems || 0).toLocaleString()}</p>
           </div>
 
           <div className="bg-black/30 p-3 rounded-xl border border-yellow-500/30">
