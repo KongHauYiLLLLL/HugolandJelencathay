@@ -135,7 +135,7 @@ export const PlayerStats: React.FC<PlayerStatsProps> = ({
               <span className="text-cyan-400 text-sm">🗿</span>
               <span className="text-white font-semibold text-xs">Totems</span>
             </div>
-            <p className="text-base font-bold text-cyan-400 text-center">{totems.toLocaleString()}</p>
+            <p className="text-base font-bold text-cyan-400 text-center">{(totems || 0).toLocaleString()}</p>
           </div>
         </div>
       </div>
