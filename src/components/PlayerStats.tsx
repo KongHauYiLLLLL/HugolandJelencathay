@@ -111,7 +111,7 @@ export const PlayerStats: React.FC<PlayerStatsProps> = ({
               <Coins className="w-4 h-4 text-yellow-400" />
               <span className="text-white font-semibold text-xs">Coins</span>
             </div>
-            <p className="text-base font-bold text-yellow-400 text-center">{coins.toLocaleString()}</p>
+            <p className="text-base font-bold text-yellow-400 text-center">{(coins || 0).toLocaleString()}</p>
           </div>
           
           <div className="bg-black/30 p-3 rounded-xl border border-purple-500/30">
